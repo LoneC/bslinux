@@ -1,0 +1,21 @@
+window:
+  opacity: 0.90
+
+colors:
+  primary:
+    background: "0x111111"
+    foreground: "0xFFFFFF"
+
+font:
+  normal:
+    family: Terminus
+    style: Normal
+  bold:
+    family: Terminus
+    style: Italic
+  bold:
+    family: Terminus
+    style: Bold
+  bold_italic:
+    family: Terminus
+    style: Bold Italic
