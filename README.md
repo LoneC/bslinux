@@ -1,5 +1,6 @@
 # BS/BS-Linux (Joke Distro)
-Disregaurd, this is a joke, it is just my running setup.
+Disregaurd: this repo is a joke, it is just my running setup.
+Will eventually deprecate when I move on to a wayland workstation.
 ## Installation
 ### 1. Packages
 ```
@@ -25,10 +26,19 @@ $ make install installsystemd
 $ systemctl enable ly.service
 $ systemctl start ly.service
 ```
-### 4. DWM
+### 4. DWM/DMENU
+DWM is provide, dmenu is not, clone it
 ```
+$ cd dwm
 $ make clean install
--- If Ly does not detect, use xinitrc
+$ cd ..
+$ git clone https://git.suckless.org/dmenu
+$ cd dmenu
+$ make clean install
+$ cd ..
+```
+If Ly does not detect, use xinitrc
+```
 $ nvim .xinitrc
 ~ dwm
 ~ :wq
@@ -38,4 +48,5 @@ $ nvim .xinitrc
 $ cp .backgrounds ~/.backgrounds
 $ cp .dwm ~/.dwm
 $ cp .config ~/.config
-
+```
+### Basically done
