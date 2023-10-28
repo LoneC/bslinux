@@ -26,7 +26,8 @@ call plug#end()
 " Vanilim (lol)
 
 set termguicolors
-colorscheme blackcat
+"colorscheme blackcat
+colorscheme lonec-c
 set number
 set relativenumber
 set tabstop=4
